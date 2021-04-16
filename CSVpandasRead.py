@@ -1,3 +1,5 @@
 import pandas
-df = pandas.read_csv('hrdataCSV.csv')
+
+df = pandas.read_csv('pythonCSV\hrdata.csv')
+
 print(df)
