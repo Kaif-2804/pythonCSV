@@ -5,4 +5,4 @@ df = pandas.read_csv('hrdata_modified.csv',
     header=0, 
     names=['Employee', 'Hired','Salary', 'Sick Days', 'ID#'])
 
-df.to_csv('hrdata_modified.csv')
+df.to_csv('hrdata.csv')
